@@ -1,0 +1,50 @@
+.DS_Store
+
+# Node / npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# App logs
+logs/
+*.log
+
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.prof
+*.coverprofile
+coverage.*
+
+# Binaries / build output folders (if you use them)
+bin/
+dist/
+build/
+out/
+
+# Dependency/vendor (uncomment if you vendor deps)
+# vendor/
+
+# Local environment files
+.env
+.env.*
+
+# VS Code / Cursor
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# JetBrains
+.idea/
+
+# TypeScript (optional)
+*.tsbuildinfo
